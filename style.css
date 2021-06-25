@@ -1,0 +1,71 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+body {display: flex;justify-content: center;background: #f9f2f2;}
+
+section.questions {
+    width: 992px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.section-center {
+    text-align: center;
+}
+
+
+
+article.question {
+    background: #fff;
+    border-radius: 18px;
+}
+
+.question-text {
+  font-size: 20px;
+}
+.question-title p {
+  font-size: 21px;
+}
+button.question-btn i {
+    font-size: 25px;
+    color: red;
+}
+
+/* span.minus-icon {
+    display: none;
+} */
+
+.question-title {
+    position: relative;
+    padding: 5px; 
+    border-bottom: 1px solid #c0c0c052;
+}
+button.question-btn {
+    position: absolute;
+    top: 21px;
+    right: 46px;
+}
+
+.question-text {
+    display: none;
+  }
+  .show-text .question-text {
+    display: block;
+  }
+  .minus-icon {
+    display: none;
+  }
+  .show-text .minus-icon {
+    display: inline;
+  }
+  .show-text .plus-icon {
+    display: none;
+  }
